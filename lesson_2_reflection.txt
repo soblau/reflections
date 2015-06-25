@@ -1,0 +1,9 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+I was able to look at only one text file instead of two and
+I only had to look at the lines where something had changed, as opposed to the whole document.
+
+What happens when you initialize a repository? Why do you need to do it?
+It initialises an empty repository in the open folder. It is empty, so need to decide which files to include in the repository base line for subsequent changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is a temporary space where you store files from the working directory before committing them to the repository. The value in this is e.g. if a large commit is made up of several files, you can store each file as you finish working on it to the staging area and review before committing
